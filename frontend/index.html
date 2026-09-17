@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="AI-Based Identity and Document Screening System">
+
+    <title>TRUSTID | AI Screening Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            <div class="logo-icon">IG</div>
+
+            <div>
+                <h2>TRUSTID</h2>
+                <span>AI Screening Platform</span>
+            </div>
+        </div>
+
+
+        <nav class="navbar">
+
+            <a href="#home">Home</a>
+
+            <a href="#screening">Screening</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+
+        <button class="admin-btn">
+            Admin Panel
+        </button>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <span class="badge">
+                AI-POWERED DOCUMENT SCREENING
+            </span>
+
+            <h1>
+                Identity & Document
+                <span>Screening System</span>
+            </h1>
+
+            <p>
+                An AI-assisted platform for screening identity documents,
+                detecting potential inconsistencies, and supporting
+                authorized officers during verification.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#screening" class="primary-btn">
+                    Start Screening
+                </a>
+
+                <a href="#about" class="secondary-btn">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="card-header">
+
+                <span>AI SYSTEM STATUS</span>
+
+                <span class="status">
+                    ● ONLINE
+                </span>
+
+            </div>
+
+
+            <div class="shield">
+                🛡️
+            </div>
+
+
+            <h3>
+                TRUSTID AI Screening
+            </h3>
+
+            <p>
+                Document screening and risk assessment
+            </p>
+
+
+            <div class="features">
+
+                <div>
+                    ✓ OCR Analysis
+                </div>
+
+                <div>
+                    ✓ Tamper Indicators
+                </div>
+
+                <div>
+                    ✓ Face Verification
+                </div>
+
+                <div>
+                    ✓ Anomaly Detection
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SCREENING ================= -->
+
+    <section id="screening" class="screening">
+
+        <div class="section-title">
+
+            <span>DOCUMENT VERIFICATION</span>
+
+            <h2>
+                Start New Screening
+            </h2>
+
+            <p>
+                Upload an identity document for AI-assisted screening.
+            </p>
+
+        </div>
+
+
+        <div class="screening-container">
+
+
+            <!-- Upload Box -->
+
+            <div class="upload-box">
+
+                <div class="upload-icon">
+                    📄
+                </div>
+
+                <h3>
+                    Upload Identity Document
+                </h3>
+
+                <p>
+                    Supported formats: PDF, JPG, JPEG, PNG
+                </p>
+
+                <p>
+                    Maximum file size: 10 MB
+                </p>
+
+
+                <label for="document-upload" class="upload-btn">
+                    Choose Document
+                </label>
+
+                <input
+                    type="file"
+                    id="document-upload"
+                    accept=".pdf,.jpg,.jpeg,.png"
+                    hidden
+                >
+
+                <div id="file-name"></div>
+
+            </div>
+
+
+
+            <!-- Screening Checks -->
+
+            <div class="checks-box">
+
+                <h3>
+                    AI Screening Checks
+                </h3>
+
+
+                <div class="check-item">
+
+                    <span>OCR Extraction</span>
+
+                    <span class="pending">
+                        Pending
+                    </span>
+
+                </div>
+
+
+                <div class="check-item">
+
+                    <span>Document Authentication</span>
+
+                    <span class="pending">
+                        Pending
+                    </span>
+
+                </div>
+
+
+                <div class="check-item">
+
+                    <span>Tamper Detection</span>
+
+                    <span class="pending">
+                        Pending
+                    </span>
+
+                </div>
+
+
+                <div class="check-item">
+
+                    <span>Face Verification</span>
+
+                    <span class="pending">
+                        Pending
+                    </span>
+
+                </div>
+
+
+                <div class="check-item">
+
+                    <span>Anomaly Detection</span>
+
+                    <span class="pending">
+                        Pending
+                    </span>
+
+                </div>
+
+
+                <button class="screen-btn">
+                    Run AI Screening
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= RISK SECTION ================= -->
+
+    <section class="risk-section">
+
+        <div class="section-title">
+
+            <span>AI RISK ASSESSMENT</span>
+
+            <h2>
+                Screening Result
+            </h2>
+
+        </div>
+
+
+        <div class="risk-card">
+
+            <div class="risk-score">
+
+                <div class="circle">
+                    --
+                </div>
+
+                <h3>
+                    Risk Score
+                </h3>
+
+                <p>
+                    Screening not completed
+                </p>
+
+            </div>
+
+
+            <div class="risk-details">
+
+                <h3>
+                    Verification Status
+                </h3>
+
+                <div class="result-status">
+                    REVIEW REQUIRED
+                </div>
+
+                <p>
+                    AI screening results are indicators only.
+                    Final verification should be performed by
+                    an authorized officer.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <div class="section-title">
+
+            <span>ABOUT THE SYSTEM</span>
+
+            <h2>
+                How IdentityGuard Works
+            </h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+
+            <div class="info-card">
+
+                <div class="info-icon">
+                    🔍
+                </div>
+
+                <h3>
+                    OCR Analysis
+                </h3>
+
+                <p>
+                    Extracts relevant text and fields from
+                    uploaded documents for further analysis.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="info-icon">
+                    🛡️
+                </div>
+
+                <h3>
+                    Tamper Detection
+                </h3>
+
+                <p>
+                    Identifies potential document inconsistencies
+                    and suspicious modification indicators.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="info-icon">
+                    👤
+                </div>
+
+                <h3>
+                    Face Verification
+                </h3>
+
+                <p>
+                    Compares available facial information as
+                    part of the verification workflow.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="info-icon">
+                    ⚠️
+                </div>
+
+                <h3>
+                    Anomaly Detection
+                </h3>
+
+                <p>
+                    Detects missing or inconsistent document
+                    information for additional review.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+
+            <span>SUPPORT</span>
+
+            <h2>
+                Contact
+            </h2>
+
+            <p>
+                IdentityGuard AI Screening Platform
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div>
+
+            <strong>
+                IdentityGuard
+            </strong>
+
+            <p>
+                AI-Based Identity & Document Screening System
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                AI-assisted screening • Human verification required
+            </p>
+
+            <p>
+                © 2026 IdentityGuard
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
